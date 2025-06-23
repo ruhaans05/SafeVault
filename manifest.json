@@ -1,0 +1,14 @@
+{
+  "name": "SafeVault Bridge",
+  "version": "1.0",
+  "manifest_version": 3,
+  "description": "Launches SafeVault native app when visiting bank sites.",
+  "background": {
+    "service_worker": "background.js"
+  },
+  "permissions": ["nativeMessaging", "tabs"],
+  "host_permissions": ["<all_urls>"],
+  "action": {
+    "default_title": "SafeVault"
+  }
+}
