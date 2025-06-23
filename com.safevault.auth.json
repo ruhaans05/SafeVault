@@ -1,0 +1,9 @@
+{
+  "name": "com.safevault.auth",
+  "description": "Triggers SafeVault authentication from browser",
+  "path": "C:\\Users\\shind\\safevault\\target\\release\\safevault.exe",
+  "type": "stdio",
+  "allowed_origins": [
+    "chrome-extension://ccohjjddeclleangjjhmcmfhpiepaihf/"
+  ]
+}
